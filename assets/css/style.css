@@ -1,0 +1,89 @@
+/* BODY */
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* HEADER */
+header{
+    height: 8em;
+    padding: 1em 4em 4em 4em;
+    font-size: 2em;
+    /* border: solid 1px black; */
+    background-image: url("../imgs/header04.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+header img{
+    /* border: solid 1px black; */
+    padding-bottom: 1.5em;
+    width: 18%;
+}
+
+/* Remover el margen superior de la etiqueta h1 contenida en el HEADER, se configuran propiedades del texto de h1*/
+header h1{
+    margin: 0px;
+    font-weight: 400;
+    color: rgb(58, 53, 53);
+    /* border: solid 1px black; */
+}
+
+header p{
+    color: rgb(51, 7, 7);
+    /* border: solid 1px black; */
+}
+
+/* MAIN */
+main{
+    width: 80%;
+    margin: auto;
+    /* border: solid 1px black; */
+}
+
+/* Se aplica a la etiqueta td contenida en el MAIN */
+main td{
+    width: 50%;
+    padding: 2em;
+    /* border: solid 1px black; */
+}
+
+/* Se aplica a la etiqueta img contenida en el MAIn */
+main img{
+    width: 100%;
+    border: solid 1px #ddd;
+}
+
+/* se define una clase para cambiar propiedades de las listas que contenidas en la página */
+.ul{
+    font-size: 0.8em;
+    color: rgb(97, 94, 90);
+}
+
+/* COTIZAR */
+.cotizar{
+    border: solid 1px black;
+    /* Cuando se utilizan estas dos propiedades en conjunto y con el mismo valor, centra verticalmente un texto de una sola línea */
+    height: 3em;
+    line-height: 3em;
+    /* ************************** */
+    font-size: 0.8em;
+    text-align: center;
+    background-color: rgb(146, 134, 146);
+    color: rgb(12, 21, 48);
+    font-weight: 900;
+    /* Se especifica cada margen */
+    margin: 10% 20% 10% 20%;
+}
+
+/* FOOTER */
+footer{
+    /* Cuando se utilizan estas dos propiedades en conjunto y con el mismo valor, centra verticalmente un texto de una sola línea */
+    height: 3em;
+    line-height: 3em;
+    /* ************************** */
+    background-color: rgb(146, 134, 146);
+    color: rgb(12, 21, 48);
+    text-align: center;
+    font-weight: 900;
+}
+
